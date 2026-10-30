@@ -12,6 +12,7 @@ export default async function AdminOverviewPage() {
   const context = await requireAdmin();
   const overview = await getAdminOverview(context);
   const activity = overview.activity.map((item) => ({
+    id: item.id,
     time: formatDate(item.createdAt),
     event: item.action,
     type: item.type,
