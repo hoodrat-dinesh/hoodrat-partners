@@ -26,6 +26,16 @@ export async function generateMetadata(): Promise<Metadata> {
       settings.tagline ||
       "A transparent revenue-share workspace for brand partners.",
     applicationName: settings.brandName,
+    icons: {
+      icon: [
+        { url: "/favicon.ico", sizes: "32x32" },
+        { url: "/icon.png", type: "image/png", sizes: "512x512" },
+      ],
+      apple: [
+        { url: "/apple-touch-icon.png", sizes: "180x180" },
+      ],
+    },
+    manifest: "/manifest.json",
   };
 }
 
