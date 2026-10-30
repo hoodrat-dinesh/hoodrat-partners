@@ -28,27 +28,16 @@ export default async function HomePage() {
 
       <section className="landing__hero">
         <div className="landing__copy page-reveal">
-          <span className="eyebrow">The partner ledger for modern commerce</span>
-          <h1>Influence, with a <em>clear return.</em></h1>
-          <p>
-            Turn genuine recommendations into measurable revenue. Share curated products,
-            follow every attributed order, and get paid with complete clarity.
-          </p>
+          <span className="eyebrow landing__subhead">built for progress , not perfection.</span>
+          <h1>
+            <span className="landing__heading-lead">AMBITION HAS NO LIMIT.</span>
+            <span className="landing__heading-body">the opportunity is yours. the effort is yours. the success you build is yours.</span>
+          </h1>
           <div className="landing__actions">
             <Link className="button button--primary" href="/login">Continue with Google <Icon name="arrow" /></Link>
             <a className="text-link" href="#how-it-works">See the partnership flow</a>
           </div>
         </div>
-        <aside className="landing__folio" aria-label="Program principles">
-          <span className="eyebrow">Partner note / 01</span>
-          <strong className="landing__folio-number">₹</strong>
-          <p>Revenue share should read like a ledger, not a leap of faith.</p>
-          <dl>
-            <div><dt>Attribution</dt><dd>Shopify synced</dd></div>
-            <div><dt>Commission</dt><dd>Product-level</dd></div>
-            <div><dt>Payouts</dt><dd>Fully traceable</dd></div>
-          </dl>
-        </aside>
       </section>
 
       <section className="flow-section" id="how-it-works">
