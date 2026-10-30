@@ -212,8 +212,8 @@ export function SettingsForm({
           <Input label="Tagline" name="tagline" defaultValue={initial.tagline} />
           <Input label="Logo URL" name="logoUrl" type="url" defaultValue={initial.logoUrl} />
           <Input label="Support email" name="supportEmail" type="email" defaultValue={initial.supportEmail} required />
-          <Input label="Primary color" name="primaryColor" type="color" defaultValue={String(initial.primaryColor || "#14213d")} />
-          <Input label="Accent color" name="accentColor" type="color" defaultValue={String(initial.accentColor || "#e65336")} />
+          <Input label="Primary color" name="primaryColor" type="color" defaultValue={String(initial.primaryColor || "#000000")} />
+          <Input label="Accent color" name="accentColor" type="color" defaultValue={String(initial.accentColor || "#666666")} />
         </div>
       </div>
       <div className="form-section">
